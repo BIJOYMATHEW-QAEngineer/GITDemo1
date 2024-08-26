@@ -20,7 +20,10 @@ public class BasicsofTestNG {
 	@BeforeSuite //1
 	public void SetupBrowse()
 	{
-		System.out.println("Setup browser setup in the project");
+		System.out.println("Setup browser setup in the project1");
+		System.out.println("Setup browser setup in the project2");
+		System.out.println("Setup browser setup in the project3");
+		System.out.println("Setup browser setup in the project4");
 	
 	}
 	@BeforeTest//2
