@@ -24,6 +24,17 @@ public class TestngFeature {
 		System.out.println("link is working");
 	}
 	
+	@Test(dependsOnMethods="Homepage")
+	public void ClickOnLink1()
+	{
+		System.out.println("link is working");
+	}
+	
+	@Test(dependsOnMethods="Homepage")
+	public void ClickOnLink2()
+	{
+		System.out.println("link is working");
+	}
 	
 	
 }
