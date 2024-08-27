@@ -22,7 +22,12 @@ public class ExceptionTimeOutTest {
 		Integer.parseInt(x);
 	}
 	
-	
+	@Test(expectedExceptions=NumberFormatException.class)
+	public void StringtoIntegerconvertTest1()
+	{
+		String x ="100A";
+		Integer.parseInt(x);
+	}
 	
 	
 	

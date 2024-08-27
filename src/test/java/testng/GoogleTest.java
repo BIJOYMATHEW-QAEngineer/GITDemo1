@@ -52,6 +52,13 @@ public class GoogleTest {
 		System.out.println(b);
 	}
 	
+	@Test(priority=3,groups="link")
+	public void googlelinkTest1()
+	{
+		boolean b=driver.findElement(By.linkText("Gmail")).isDisplayed();
+		System.out.println(b);
+	}
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
